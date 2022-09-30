@@ -15,8 +15,14 @@ public class TextList : MonoBehaviour
 
     
     [Header("Timing Variables")]
+    
+    // Number of seconds before resetting the timer
     public float secondsBetweenTicks = 2f;
+
+    // Seconds elapsed since last reset, in seconds
     public float timer = 0f;
+
+    // A counter of how many times the timer has reset
     public int ticks = 0;
 
 
